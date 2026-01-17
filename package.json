@@ -1,0 +1,19 @@
+{
+  "name": "ideconnect",
+  "version": "1.0.0",
+  "description": "Self-hosted MCP server for shared project context",
+  "type": "module",
+  "scripts": {
+    "install": "node scripts/setup.js",
+    "setup": "node scripts/setup.js",
+    "verify": "node scripts/verify.js",
+    "init": "node scripts/init.js",
+    "inject": "node adapters/file-inject/inject.js",
+    "start": "node scripts/start-server.js",
+    "test": "node test-all-tools.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "project-context", "ai", "ide"],
+  "author": "",
+  "license": "MIT"
+}
+

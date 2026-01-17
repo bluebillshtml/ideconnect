@@ -1,0 +1,6 @@
+node_modules/
+.ideconnect-context.json
+.ideconnect/.cache/
+*.log
+.DS_Store
+
