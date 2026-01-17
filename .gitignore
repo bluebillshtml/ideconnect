@@ -1,6 +1,17 @@
-node_modules/
+# Exclude all source code
+server/
+scripts/
+adapters/
+examples/
+.ideconnect/
 .ideconnect-context.json
-.ideconnect/.cache/
+
+# Keep only essential files
+!package.json
+!README.md
+!.gitignore
+
+# Node modules
+node_modules/
 *.log
 .DS_Store
-

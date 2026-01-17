@@ -1,19 +1,39 @@
 {
   "name": "ideconnect",
-  "version": "1.0.0",
-  "description": "Self-hosted MCP server for shared project context",
+  "version": "1.0.2",
+  "description": "Free, self-hosted MCP server for shared project context across AI IDEs",
   "type": "module",
+  "files": [
+    "server/",
+    "scripts/",
+    "adapters/",
+    "examples/",
+    "README.md"
+  ],
   "scripts": {
     "install": "node scripts/setup.js",
     "setup": "node scripts/setup.js",
     "verify": "node scripts/verify.js",
     "init": "node scripts/init.js",
     "inject": "node adapters/file-inject/inject.js",
-    "start": "node scripts/start-server.js",
-    "test": "node test-all-tools.js"
+    "start": "node scripts/start-server.js"
   },
-  "keywords": ["mcp", "model-context-protocol", "project-context", "ai", "ide"],
-  "author": "",
-  "license": "MIT"
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "project-context",
+    "ai",
+    "ide",
+    "cursor",
+    "claude-desktop",
+    "ide-integration",
+    "self-hosted"
+  ],
+  "author": "bluebillshtml",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluebillshtml/ideconnect.git"
+  }
 }
 
