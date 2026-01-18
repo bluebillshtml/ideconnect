@@ -43,10 +43,16 @@ No external services, no paid APIs, no cloud dependencies - 100% local and priva
 
 **Prerequisites:** Node.js 18 or higher, npm or yarn
 
-**Quick Install - One command does everything:**
+**Install from npm (Recommended):**
 
 ```bash
-npm run install
+npm install -g ideconnect
+```
+
+Then in your project directory:
+
+```bash
+ideconnect setup
 ```
 
 This automatically:
@@ -69,22 +75,6 @@ This automatically:
 2. Restart your IDE to load IDEConnect
 
 3. Start using context-aware AI assistance!
-
-**Manual Installation (If Needed):**
-
-If automated setup doesn't work:
-
-```bash
-# 1. Install dependencies
-cd server
-npm install
-
-# 2. Initialize context
-cd ..
-node scripts/init.js
-
-# 3. Configure IDE manually (see IDE Configuration below)
-```
 
 ## IDE Configuration
 
