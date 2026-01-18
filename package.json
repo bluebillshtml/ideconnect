@@ -1,8 +1,11 @@
 {
   "name": "ideconnect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Free, self-hosted MCP server for shared project context across AI IDEs",
   "type": "module",
+  "bin": {
+    "ideconnect": "scripts/setup.js"
+  },
   "files": [
     "server/",
     "scripts/",
